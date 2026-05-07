@@ -1,14 +1,14 @@
-# Auto
+# Drohne
 
-`Auto` is a hobby robotics project focused on building our own RC car platform with room to grow into a more advanced autonomous vehicle system.
+`Drohne` is a hobby robotics project focused on building our own RC drone platform with room to grow into a more advanced autonomous aerial system.
 
 ## Project Outline
 
 ### Goal
-Build a self-made RC car with:
-- custom control software
-- reliable motor control
-- steering control
+Build a self-made RC drone with:
+- custom flight control software
+- reliable propulsion control
+- attitude control (roll/pitch/yaw)
 - room for future autonomy features
 
 ### Hardware
@@ -18,13 +18,13 @@ Current hardware mentioned in the planning notes:
 - ESP32
 
 ### Architecture
-The current plan is to use the Raspberry Pi Pico W as the main vehicle controller.
+The current plan is to use the Raspberry Pi Pico W as the main flight controller.
 
 Reason:
 - real-time capable
 - better suited for PWM than a Linux-based system
-- suitable for motor and servo control
-- suitable for interrupt-based encoder handling
+- suitable for ESC and servo control
+- suitable for interrupt-based sensor and encoder handling
 - strong C++ support
 
 Planned future use of Raspberry Pi 5:
@@ -69,12 +69,12 @@ drohne/
 ## Development Phases
 
 ### Phase 1
-- PWM motor control
-- servo steering
+- PWM propulsion control
+- basic axis control
 
 ### Phase 2
-- encoder feedback
-- speed control
+- encoder/sensor feedback
+- altitude or speed control
 - PID controller
 
 ### Phase 3
@@ -82,7 +82,7 @@ drohne/
 - failsafe
 
 ### Phase 4
-- autonomous features
+- autonomous flight features
 
 ## Planned Modules
 
@@ -113,14 +113,14 @@ make
 Expected firmware artifact:
 
 ```text
-rc_car.uf2
+drohne.uf2
 ```
 
 ## Target Goal
-Build a self-made RC car with:
+Build a self-made RC drone with:
 - its own control software
-- its own motor regulation
+- its own propulsion regulation
 - an expandable autonomous architecture
 
 ## Current Status
-The repository is still in the planning stage. The next practical step is to create the initial firmware scaffold for the RC car and align the implementation with the intended hardware target.
+The repository is still in the planning stage. The next practical step is to create the initial firmware scaffold for the drone and align the implementation with the intended hardware target.
