@@ -13,12 +13,12 @@ int main() {
     gpio_set_dir(led_pin, GPIO_OUT);
 
     Motor motor;
-    Servo servo;
+    Servo axis_servo;
     Encoder encoder;
     PidController speed_pid(0.0f, 0.0f, 0.0f);
 
     motor.init();
-    servo.init();
+    axis_servo.init();
     encoder.init();
     speed_pid.reset();
 

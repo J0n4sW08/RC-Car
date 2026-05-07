@@ -8,7 +8,7 @@ public:
     float angle_degrees() const;
 
 private:
-    float steering_angle_degrees_ = 0.0f;
+    float axis_angle_degrees_ = 0.0f;
 };
 
 #endif
