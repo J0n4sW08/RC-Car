@@ -28,11 +28,20 @@
 - Pitch: 4.0 inch
 - Blades: 3 (tri-blade design)
 
+# Miscellaneous
+### Heated Inserts
+[Amazon.de](https://www.amazon.de/M2-5-Bolatus-Einschmelzmuttern-Einschmelzhilfe-Einschmelzgewinde/dp/B0F2TGGBMC/ref=sr_1_1_sspa?sr=8-1-spons&aref=PFkAvlBKTN&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&language=de_DE) ~ 11,89€
+
+### Hex Standoff, Internal/External Thread M3, 30 mm
+[Pollin.de](https://www.pollin.de/p/abstandsbolzen-sechskant-innen-aussengewinde-m3-30-mm-442655?etcc_med=fshopping&etcc_ori=google&et_cmp_seg2=sea-fshopping&channelid=fshopping&etcc_med=CPC&etcc_par=Google&etcc_cmp=PMax-DE-CSS-Shopping-VP-5&et_cmp_seg2=SEA-CSS&etcc_var=Cj0KCQjw2YDQBhD_ARIsAE1qeSeSoJagWbDsTZgaPo5HA10Ewup4k2sOMOFAIl_DViiukDZVPhNNwusaAuhqEALw_wcB&et_cmp_seg1=20281414516&etcc_grp=&etcc_bky=&etcc_mty=) ~ 0,27€/piece (buy min 6.)
 
 ## Price
 
+
 | Piece | Price | Quantity |
 | :--- | :---: | ---: |
-| Motor | 15,5€ | 4|
-| Propeller| 2,95€| 3|
+| Motor | 15,50€ | 4 |
+| Propeller | 2,95€ | 3 |
+| Heat Inserts | 11,89€ | 1 |
+| M3 Standoff 30mm | 0,27€ | 6 |
 
