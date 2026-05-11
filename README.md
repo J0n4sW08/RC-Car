@@ -15,7 +15,7 @@ Build a self-made RC drone with:
 Current hardware mentioned in the planning notes:
 - Raspberry Pi Pico W
 - Raspberry Pi 5
-- ESP32
+
 
 ### Architecture
 The current plan is to use the Raspberry Pi Pico W as the main flight controller.
@@ -34,10 +34,6 @@ Planned future use of Raspberry Pi 5:
 - telemetry
 - web interface
 
-Optional use of ESP32:
-- wireless remote control
-- telemetry bridge
-
 ## Software Direction
 
 ### Language
@@ -52,75 +48,3 @@ Use `C++` because it fits embedded work well:
 - `Pico SDK`
 - `g++`
 - `make`
-
-Optional:
-- `Visual Studio Code`
-- `PlatformIO`
-
-## Planned Project Structure
-
-```text
-drohne/
-├── CMakeLists.txt
-├── main.cpp
-└── build/
-```
-
-## Development Phases
-
-### Phase 1
-- PWM propulsion control
-- basic axis control
-
-### Phase 2
-- encoder/sensor feedback
-- altitude or speed control
-- PID controller
-
-### Phase 3
-- radio control
-- failsafe
-
-### Phase 4
-- autonomous flight features
-
-## Planned Modules
-
-```text
-motor.cpp
-motor.h
-
-servo.cpp
-servo.h
-
-pid.cpp
-pid.h
-
-encoder.cpp
-encoder.h
-```
-
-## Build Direction
-The current notes assume a standard embedded CMake workflow:
-
-```bash
-mkdir build
-cd build
-cmake ..
-make
-```
-
-Expected firmware artifact:
-
-```text
-drohne.uf2
-```
-
-## Target Goal
-Build a self-made RC drone with:
-- its own control software
-- its own propulsion regulation
-- an expandable autonomous architecture
-
-## Current Status
-The repository is still in the planning stage. The next practical step is to create the initial firmware scaffold for the drone and align the implementation with the intended hardware target.
