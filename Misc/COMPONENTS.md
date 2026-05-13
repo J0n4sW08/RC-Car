@@ -78,5 +78,6 @@
 | Heat Inserts | 11,89€ | 1 |
 | M3 Standoff 30mm | 0,27€ | 6 |
 | ESC | 45,90€ | 1 |
+| Battery | 44,99€ | 1 |
 
 *currently round about 130€* 
